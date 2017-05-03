@@ -7,6 +7,7 @@ package AulaLista;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.util.Scanner;
 
 /**
  *
@@ -20,6 +21,7 @@ public class Lista2 {
         lerProduto(prod, arquivo);
         insercao(prod);
         imprimir(prod);
+        remove(prod, arquivo);
     }
 
     public static void lerProduto(Produto lista[], String arq) {
@@ -62,6 +64,16 @@ public class Lista2 {
     public static void imprimir(Produto a[]) {
         for (int i = 0; i < a.length; i++) {
             System.out.println(a[i]);
+        }
+    }
+
+    public static void remove(Produto lista[], String arq) {
+        try {
+            
+            System.out.println("Teste");
+
+        } catch (Exception e) {
+            System.out.println("Erro ao abrir o arquivo!");
         }
     }
 
