@@ -8,17 +8,13 @@
  *
  * @author Gui Freitas
  */
-public class Exe4 {
+public class Exe7 {
 
-    public static int naoRecursivo(int k, int n) {
-        
-        for (int i = 1; i <= n; i++) {
-            k *= i;
-        }
-        return k;
+    public static int naoRecursivo(int numero) {
+        return 0;
     }
 
-    public static int recursivo(int k, int n) {
+    public static int recursivo(int numero) {
         return 0;
     }
 
